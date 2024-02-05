@@ -52,7 +52,9 @@ function User({ isOpen, onOpen, onClose }) {
      setTimeout(()=>{
       googleLoginWindow.close();
       
+     setTimeout(()=>{
       window.location.reload();
+     },1500)
     
      },3000)
 
