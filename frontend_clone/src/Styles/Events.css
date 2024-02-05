@@ -1,0 +1,45 @@
+.events-div{
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
+    
+}
+
+.events-main-div{
+    width: 100%;
+}
+
+#dot-button{
+    margin-bottom: 0px;
+}
+
+.event-carousel-button-group{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
+  
+  .event-carousel-button-group>button{
+    margin-left: 0.5rem;
+    border: none;
+    padding: 0.2rem 0.4rem;
+  }
+
+.event-about-div{
+    height: 7rem;
+}
+
+Carousel{
+    height: 50rem;
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    
+   
+}
+
+@media only screen and (max-width: 685px) {
+    
+   
+}

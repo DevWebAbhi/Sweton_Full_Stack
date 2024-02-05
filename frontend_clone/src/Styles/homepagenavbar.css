@@ -1,0 +1,170 @@
+.homepage-bg-top{
+    height:max-content;
+    background-image: url('../Assets/nb1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37rem; 
+    padding-top: 1.3rem; 
+}
+.navbar-container-brand>h1:first-child{
+font-size: 100%;
+color: white;
+font-weight: 700;
+}
+.navbar-container-brand>h1:nth-child(2){
+  font-size: 85%;
+  color: black;
+  font-weight: 600;
+}
+.nav-com{
+    height: 38rem;
+}
+
+
+.carausel-box{
+    width: 30rem;
+}
+
+.button-top{
+    background-color:'rgb(207, 3, 3)';
+     width:'15rem';
+    margin-left:'1.5rem' ;
+    margin-right:'1.5rem';
+}
+
+.logo-img{
+    display: block;
+    margin: auto;
+    margin-top: 3.8rem;
+    width: 26%;
+
+}
+
+.pro-spk-h1{
+    font-size: xx-large;
+    text-align: start;
+}
+
+.banner-banner-div{
+  display: flex;
+}
+.banner-banner-div img{
+  width: 100%;
+}
+
+.banner-banner-div>div>div{
+  width: 20rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-weight: 350;
+}
+  
+.banner-banner-div>div>h1{
+  text-align: center;
+  color: rgb(207, 3, 3);
+}
+.navbar-div-homepage-loudspeaker{
+  margin-top: 3.5rem;
+}
+ .navbar-div-homepage-loudspeaker button{
+  background-color: rgb(255, 3, 3);
+  border-radius: 0.3rem;
+  height: 2.5rem;
+  border: transparent;
+  
+  font-weight: 500;
+  color: white;
+  width: 18rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+ }
+
+ .navbar-div-homepage-loudspeaker-buynow{
+  background-color: rgb(255, 3, 3);
+  border-radius: 0.3rem;
+  height: 2.5rem;
+  border: transparent;
+  padding: 0.5rem;
+
+  font-weight: 500;
+  color: white;
+  width: 10rem;
+ }
+ 
+ 
+  @media screen and (min-width: 1330px) {
+    .banner-banner-div{
+      width: max-content;
+      margin: auto;
+    }
+    
+  }
+
+  @media screen and (max-width: 1046px) {
+    .banner-banner-div{
+      margin-top: 35rem;
+      display: block;
+    }
+    .banner-banner-div>div>div{
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 721px) {
+    .logo-img{
+        width: 40%;
+    }
+  }
+
+
+  @media screen and (max-width: 530px) {
+    .banner-banner-div{
+      margin-top: 15rem;
+    }
+  } 
+
+
+@media screen and (max-width: 480px) {
+    .logo-img{
+        width: 50%;
+    }
+    .button-top{
+        width:'10rem';
+        margin-left:'0rem' ;
+        margin-right:'0rem';
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .navbar-div-homepage-loudspeaker button{
+      margin: 1rem auto;
+      font-size: small;
+      width:13rem;
+      display: block;
+
+    }
+    .navbar-container-brand>h1:first-child{
+      font-size: 75%;
+     
+      }
+      .navbar-container-brand>h1:nth-child(2){
+        font-size: 55%;
+       
+      }
+  }
+
+  @media screen and (max-width: 370px) {
+    .navbar-container-brand>h1:first-child{
+      font-size: 63%;
+     
+      }
+      .navbar-container-brand>h1:nth-child(2){
+        font-size: 57%;
+       
+      }
+  }

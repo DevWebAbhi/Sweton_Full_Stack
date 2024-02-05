@@ -1,0 +1,95 @@
+.parent-introduction-div{
+width: 85%;
+margin: auto;
+
+display: flex;
+justify-content: space-around;
+margin-top: 4rem;
+}
+
+.main-div-introduction{
+  background-color: rgb(0, 0, 0);  
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+
+.parent-introduction-div>div:nth-child(2){
+    padding: 0;
+    margin: 0;
+}
+
+.parent-introduction-div>div>img{
+    width: 21rem;
+    padding: 0;
+    margin: 0;
+}
+
+.main-div-introduction>h1{
+   color: rgb(0, 110, 255);
+   font-size: 3.2rem;
+   font-weight: 600;
+}
+
+.logonew-img{
+    width: 10rem;
+}
+
+.parent-introduction-div>div:nth-child(2){
+   width: 50%;
+   text-align: left;
+}
+
+.parent-introduction-div>div:nth-child(2)>h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+    word-spacing: 3px;
+    width: 80%;
+}
+.parent-introduction-div>div:nth-child(2)>p{
+font-family:'Courier New', Courier, monospace;
+width: 100%;
+color: rgb(158, 158, 158);
+letter-spacing: 1px;
+word-spacing: 1px;
+margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 1046px) {
+    .parent-introduction-div{
+        display: block;
+    }
+    .parent-introduction-div>div{
+        width: max-content;
+        margin: auto;
+    }
+    .parent-introduction-div>div:nth-child(2){
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+    .parent-introduction-div>div:nth-child(2)>h1{
+        width: 100%;
+        text-align: center;
+    }
+    .parent-introduction-div>div:nth-child(2)>p{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 446px) {
+    .main-div-introduction>h1{
+        font-size:2rem;
+    }
+    .parent-introduction-div>div>img{
+        width: 15rem;
+    }
+    .parent-introduction-div>div:nth-child(1){
+        width: max-content;
+    }
+}
+

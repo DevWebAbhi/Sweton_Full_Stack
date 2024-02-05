@@ -1,0 +1,150 @@
+.parent-div{
+  display: flex;
+  margin: auto;
+  width: 89%;
+  padding-top: 2rem;
+  justify-content: space-around;
+  height: 35rem;
+  font-size: large;
+}
+
+.parent-child2-div{
+  width: 56rem;
+  max-width: 56rem;
+}
+
+
+
+
+.parent-child-img{
+  width: max-content;
+}
+
+.parent-child-div{
+  padding-right: 2rem;
+}
+
+.parent-child2-butondiv{
+  display: flex;
+  justify-content: end;
+}
+
+.parent-child2-butondiv-button1,
+.parent-child2-butondiv-button2{
+  border: 1px solid;
+  padding: 0 5px;
+}
+
+.parent-child2-h1{
+  margin-bottom: -9px;
+}
+
+.parent-child2-butondiv-button1{
+  margin-right: 5px;
+}
+
+.parent-child2-child-div{
+  width: 56rem;
+  margin: auto;
+}
+
+
+@media only screen and(max-width:1500){
+  .parent-div{
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  .parent-child2-child-div{
+  width: 41.5rem;
+}
+.parent-child2-div{
+  width: 41.5rem;
+}
+}
+@media only screen and (max-width: 1290px) {
+  .parent-child2-child-div{
+  width: 28rem;
+}
+.parent-child2-div{
+  width: 28rem;
+}
+}
+
+@media only screen and (max-width: 1046px) {
+  .parent-div{
+    display: block;
+  }
+  .parent-child-img{
+    width: 28rem;
+  }
+  .parent-child2-child-div{
+    width: 28rem;
+  }
+.parent-child2-div{
+  width: min-content;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.parent-child-div{
+  padding-right: 0rem;
+  
+}
+}
+
+
+
+@media only screen and (max-width: 530px) {
+ 
+  .parent-child-img{
+    width: 14rem;
+    height: 14rem;
+  }
+  .parent-child2-child-div{
+  width: 14rem;
+
+}
+.parent-child2-div{
+  width: 14rem;
+}
+.parent-child2-div{
+  width: min-content;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.parent-child-div{
+  padding-right: 0rem;
+}
+}
+
+
+.active{
+  background-color: rgb(156, 156, 156);
+}
+.inactive{
+  background-color: rgb(224, 224, 224);
+}
+
+#dot-button{
+  width: 5px;
+  height: 11px;
+  border-radius: 100%;
+  display: block;
+  margin-right: 0.5rem;
+ 
+  
+  border: transparent;
+}
+
+.carousel-button-group{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.carousel-button-group>button{
+  margin-left: 0.5rem;
+  border: none;
+  padding: 0.2rem 0.4rem;
+}
+

@@ -1,0 +1,30 @@
+img{
+    width: 13rem;
+}
+
+p{
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    width: 11rem;
+}
+
+h1{
+    font-weight: 400;
+    text-align: start;
+    padding-left: 0.5rem;
+    font-size: x-large;
+}
+
+.Raed-More-button{
+    
+    border: 1px solid red;
+    padding: 0.3rem;
+    background-color: transparent;
+    display: block;
+    
+    
+}
+
+.spk-info-div{
+  height: 193px;
+}

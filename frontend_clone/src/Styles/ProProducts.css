@@ -1,0 +1,218 @@
+.series-button-div{
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.series-button-div>button{
+padding: 1;
+padding-left: 4rem;
+padding-right: 4rem;
+background-color: rgb(0, 96, 175);
+border: none;
+border-radius: 0.2rem;
+color: white;
+margin-left: 2rem;
+margin-right: 2rem;
+font-size: larger;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.pro-series-name-div{
+    width: 85%;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(255, 42, 42);
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.8rem;
+}
+
+.pro-product-main-div{
+    width: 85%;
+    margin: 1rem auto;
+}
+
+.pro-product-main-div-div{
+    display: flex;
+}
+
+.pro-product-main-div-div>div{
+    width: 100%;
+}
+
+.pro-product-main-div-div>div:nth-child(2){
+    width: 140%;
+}
+
+.pro-product-main-div-div-div-div-title{
+    width: 40%;
+    background-color: rgb(255, 42, 42);
+    color: white;
+    font-size: larger;
+    padding: 0.3rem 0;
+    border-radius: 0.45rem;
+}
+
+.pro-product-main-div-div-div-div-title~p{
+    width: 95%;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: medium;
+    text-align: left;
+}
+
+
+.pro-product-main-div-div-div-image{
+    padding-right: 2.5rem;
+}
+
+.pro-product-main-div-div-div-key-features{
+    text-align: start;
+    background-color: rgb(255, 197, 90);
+    padding: 0.4rem;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+
+.pro-product-main-div-div-div-key-features-table>tr>td{
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.pro-product-main-div-div-div-key-features-table>tr:nth-child(1)>td{
+    padding-top: 1rem;
+}
+
+.pro-product-main-div-div-div-key-features-table{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.pro-product-main-div-div-div-key-features-table tr:nth-child(even){
+    background-color:rgb(255, 234, 194);
+}
+.pro-product-main-div-div-div-div-specifications-parameters{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters>div:first-child{
+    margin-right: 0.5rem;
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters>div:nth-child(2){
+    margin-left: 0.5rem;
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters>div{
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters-div-title{
+    background-color:rgb(255, 197, 90);
+    border: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.pro-product-main-div-div-div-div-specifications-parameters-table>tr>td{
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters td{
+    height: 2.5rem;
+}
+
+.pro-product-main-div-div-div-div-specifications-parameters-table tr:nth-child(even){
+    background-color:rgb(255, 234, 194);
+}
+
+.pro-product-main-div-div>div:nth-child(3){
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+
+
+.ReadMore-for-proloudspk{
+    margin-top: 2rem;
+}
+
+.ReadMore-for-proloudspk>button{
+    border: 1px solid;
+    border-color: red;
+    background: transparent;
+    padding: 0.3rem 0.5rem;
+}
+
+@media only screen and (max-width: 1165px) {
+    .series-button-div{
+        width: 97%;
+    }
+
+    #pro-series-name-div{
+        width: 97%;
+    }
+
+    .pro-product-main-div{
+        width: 97%;
+    }
+    .pro-product-main-div-div-div-div-title~p{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+.pro-product-main-div-div>div:nth-child(2){
+    width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+    .pro-product-main-div-div{
+        display: block;
+    }
+    .pro-product-main-div-div>div{
+        width: 100%;
+    }
+    .pro-product-main-div-div-div-image{
+       padding: 0;
+    }
+    .pro-product-main-div-div>div:nth-child(3){
+        padding-left: 0;
+      
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .series-button-div>button{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .series-button-div>button{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .pro-product-main-div-div-div-div-specifications-parameters{
+        display: block;
+    }
+    .pro-product-main-div-div-div-div-title{
+        width: 60%;
+    }
+}

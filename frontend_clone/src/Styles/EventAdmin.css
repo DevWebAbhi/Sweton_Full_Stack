@@ -1,0 +1,29 @@
+.admin-form form{
+    width: 50%;
+    margin:auto;
+    border: 2px solid rgb(143, 18, 18);
+    border-radius: 0 5rem;
+    background-color: rgb(255, 243, 227);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.admin-form input,.admin-form label, .admin-form select, .admin-form textarea{
+    display: block;
+    margin: auto;
+    width: 30rem;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.admin-form input{
+border: 1.5px solid rgb(136, 15, 15);
+}
+
+.btn{
+    border: 1.5px solid rgb(136, 15, 15);
+    
+}

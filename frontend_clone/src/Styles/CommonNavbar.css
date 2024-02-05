@@ -1,0 +1,118 @@
+.CommonNavbar-logo1{
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    width: 15rem;
+}
+
+.background-div{
+    height:max-content;
+    background-image: url('../Assets/Honeycomb.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem; 
+    padding-top: 1.3rem; 
+}
+
+.background-div h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top:5rem;
+}
+
+.navbar1{
+  background-color: transparent;
+  font-size: small;
+  font-style: bold;
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  height: 4.8rem;
+  border-radius: 0.3rem;
+}
+.navbar-links{
+ width: max-content;
+ margin: auto;
+}
+
+.navbar-items-div{
+  width: 75%;
+  margin-left: auto;
+}
+
+
+
+
+
+
+.navbar-links-link1 {
+  position: relative;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-links-link1:hover{
+  color: white;
+}
+
+.navbar-links-link1:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  color: white;
+}
+
+.navbar-links-link1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: white;
+}
+
+  
+  
+
+ 
+
+
+  
+
+  @media screen and (max-width: 370px) {
+    .CommonNavbar-logo1{
+      width: 10rem;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .navbar1{
+      background-color: rgb(207, 3, 3);
+     
+      
+      
+    }
+    .navbar-items-div{
+      width: min-content;
+    }
+    
+    .common-navbar-styling2{
+      background-color: rgb(207, 31, 31);
+    }
+    .navbar1{
+      background-color: rgb(196, 9, 9);
+      color: white;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .background-div h1{
+      font-size: 2rem;
+    }
+  }
+  
