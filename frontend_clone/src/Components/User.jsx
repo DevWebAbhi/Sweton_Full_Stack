@@ -42,7 +42,7 @@ function User({ isOpen, onOpen, onClose }) {
   
   async function authenticateWithGoogle() {
     try {
-      const googleAuthURL = `${REACT_APP_URL}auth/google`;
+      const googleAuthURL = `https://sweton-clone-backend.onrender.com/auth/google`;
       const googleLoginWindow = window.open(googleAuthURL, '_blank', 'width=600,height=600');
 
       if (!googleLoginWindow) {
