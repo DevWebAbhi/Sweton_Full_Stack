@@ -5,7 +5,7 @@ export const getVideos=(setLoading,setError)=>async(dispatch)=>{
     try {
         setError(false);
         setLoading(true);
-        const data= await axios.get(REACT_APP_URL+`videos`);
+        const data= await axios.get(`https://sweton-clone-backend.onrender.com/videos`);
         console.log(data.data.data)
         dispatch({type:SET_VIDEOS,payload:data.data.data});
         setLoading(false);

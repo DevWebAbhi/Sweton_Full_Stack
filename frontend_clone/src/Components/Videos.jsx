@@ -41,7 +41,7 @@ const navigate=useNavigate();
                 !loading?(
                     <div className='videos-div-grid'>
                         {
-                            selector.videos!=undefined && selector.videos!=null?(
+                            selector.videos.length!=0?(
                                 selector.videos.map((ele,idx)=>{
                                     return <div key={idx} className='videos-div-single'>
                                         <iframe width="200" height="150" src={ele.link} allowfullscreen></iframe>
