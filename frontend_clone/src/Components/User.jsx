@@ -49,16 +49,12 @@ function User({ isOpen, onOpen, onClose }) {
         console.error('Google login window blocked or closed.');
         return;
       }
-     setTimeout(()=>{
-      googleLoginWindow.close();
-      
-     setTimeout(()=>{
-      window.location.reload();
-     },1500)
-    
-     },3000)
+      const allCookies = Cookies.get();
+      if(allCookies['sweton-token-authentication-user']){
+        googleLoginWindow.close();
+      }
 
-    } catch (error) {
+     } catch (error) {
       console.error('Error during authentication:', error);
     }
   }
@@ -77,7 +73,7 @@ function User({ isOpen, onOpen, onClose }) {
 
   useEffect(() => {
     const allCookies = Cookies.get();
-   
+   console.log(allCookies['sweton-token-authentication-user']);
     if(allCookies['sweton-token-authentication-user']){
       dispatch({type:SET_LOGIN,payload:""});
     }
