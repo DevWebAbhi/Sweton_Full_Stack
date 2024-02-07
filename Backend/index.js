@@ -13,10 +13,13 @@ const JWT_PASSCODE=process.env.JWT_PASSCODE;
 
 
 app.use(cors());
-app.use(cors({ origin: 'https://sweton-full-stack-612603mqd-devwebabhi.vercel.app' }));
 app.use(express.json());
 require('dotenv').config();
-
+app.use(cors({
+  origin: 'https://sweton-full-stack.vercel.app',
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
@@ -41,6 +44,7 @@ const { proLoudSpeakerRouter } = require('./Routers/proLoudSpeakerRouter');
 app.get('/', (req, res) => {
   res.status(200).send({ message: 'This is Sweton Backend Application' });
 });
+
 
 app.use("/files", express.static(__dirname + '/Assets'));
 

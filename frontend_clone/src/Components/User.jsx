@@ -49,6 +49,7 @@ function User({ isOpen, onOpen, onClose }) {
         console.error('Google login window blocked or closed.');
         return;
       }
+      console.log(googleLoginWindow)
       const allCookies = Cookies.get();
       if(allCookies['sweton-token-authentication-user']){
         googleLoginWindow.close();
