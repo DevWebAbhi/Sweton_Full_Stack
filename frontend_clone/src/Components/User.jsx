@@ -73,7 +73,7 @@ function User({ isOpen, onOpen, onClose }) {
     }
 
   useEffect(() => {
-    const allCookies = Cookies.get();
+    const allCookies = Cookies.getAll();
    console.log(allCookies);
     if(allCookies['sweton-token-authentication-user']){
       dispatch({type:SET_LOGIN,payload:""});
